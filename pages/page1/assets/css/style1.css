@@ -1,0 +1,360 @@
+:root {
+    --accent-blue: #007bff;
+    --accent-blue-dark: #0056b3;
+    --text-dark: #333;
+    --text-light-gray: #666;
+    --background-light: #f8f8f8;
+    --border-gray: #e0e0e0;
+    --white: #ffffff;
+    --shadow-light: rgba(0, 0, 0, 0.1);
+    --shadow-medium: rgba(0, 0, 0, 0.2);
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--background-light);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5%;
+    background-color: var(--white);
+    box-shadow: 0 2px 10px var(--shadow-light);
+    position: relative;
+    z-index: 100;
+}
+
+.navbar .autogo-logo {
+    font-size: 1.8em;
+    font-weight: 700;
+    color: var(--text-dark);
+    text-decoration: none;
+}
+
+.navbar nav a {
+    color: var(--text-light-gray);
+    text-decoration: none;
+    margin-left: 30px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.navbar nav a:hover {
+    color: var(--accent-blue);
+}
+
+.navbar .contact-btn {
+    background-color: var(--accent-blue);
+    color: var(--white);
+    padding: 10px 25px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+    margin-left: 30px;
+}
+
+.navbar .contact-btn:hover {
+    background-color: var(--accent-blue-dark);
+}
+
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 5%;
+    min-height: calc(100vh - 80px);
+    background-color: var(--white);
+    position: relative;
+    overflow: hidden;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    box-shadow: 0 5px 20px var(--shadow-light);
+    margin-bottom: 30px;
+}
+
+.hero-content {
+    flex: 1;
+    max-width: 50%;
+    padding-right: 30px;
+    z-index: 10;
+}
+
+.hero-content h1 {
+    font-size: 3.5em;
+    font-weight: 700;
+    color: var(--text-dark);
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.hero-content .subtitle {
+    font-size: 1.1em;
+    color: var(--text-light-gray);
+    line-height: 1.6;
+    margin-bottom: 40px;
+}
+
+.search-form-container {
+    background-color: var(--white);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 5px 20px var(--shadow-light);
+    margin-bottom: 30px;
+}
+
+.search-form-container .input-row {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.search-form-container .input-row:last-child {
+    margin-bottom: 0;
+}
+
+.input-group {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group label {
+    font-size: 0.85em;
+    color: var(--text-light-gray);
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.input-group input[type="text"] {
+    border: 1px solid var(--border-gray);
+    border-radius: 8px;
+    padding: 10px 15px;
+    font-size: 0.95em;
+    color: var(--text-dark);
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.input-group input[type="text"]:focus {
+    border-color: var(--accent-blue);
+}
+
+.search-btn {
+    background-color: var(--accent-blue);
+    color: var(--white);
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    align-self: flex-end;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-btn:hover {
+    background-color: var(--accent-blue-dark);
+}
+
+.brands-section {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.brands-section .brand-text {
+    font-size: 1.1em;
+    color: var(--text-light-gray);
+    opacity: 0.7;
+    font-weight: 500;
+}
+
+.hero-image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 100%;
+    min-height: 500px;
+}
+
+.accent-circle {
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    background-color: var(--accent-blue);
+    border-radius: 50%;
+    right: -150px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+.hero-car-image {
+    max-width: 200%;
+    height: 1000px;
+    height: auto;
+    display: block;
+    position: relative;
+    z-index: 2;
+    filter: drop-shadow(5px 5px 15px var(--shadow-medium));
+    padding-left: 500px;
+}
+
+@media (max-width: 1200px) {
+    .hero-content h1 {
+        font-size: 3em;
+    }
+    .accent-circle {
+        width: 500px;
+        height: 500px;
+        right: -100px;
+    }
+}
+
+@media (max-width: 992px) {
+    .navbar {
+        padding: 20px 3%;
+    }
+    .navbar nav a {
+        margin-left: 20px;
+    }
+    .navbar .contact-btn {
+        margin-left: 20px;
+        padding: 8px 20px;
+    }
+
+    .hero-section {
+        flex-direction: column;
+        text-align: center;
+        padding: 30px 3%;
+    }
+
+    .hero-content {
+        max-width: 100%;
+        padding-right: 0;
+        padding-left: 100px;
+        margin-bottom: 40px;
+    }
+
+    .hero-content h1 {
+        font-size: 2.5em;
+    }
+    .hero-content .subtitle {
+        font-size: 1em;
+    }
+
+    .search-form-container {
+        width: 100%;
+    }
+    .search-form-container .input-row {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .search-btn {
+        width: 100%;
+        height: auto;
+        padding: 12px 20px;
+    }
+    .input-group input {
+        width: calc(100% - 30px);
+    }
+
+    .hero-image-container {
+        min-height: 400px;
+        width: 100%;
+    }
+    .accent-circle {
+        width: 400px;
+        height: 400px;
+        right: 0;
+        top: 20%;
+        transform: translate(50%, -50%);
+    }
+    .hero-car-image {
+        max-width: 500%;
+        margin-left: 10000%;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar nav {
+        display: none;
+    }
+
+    .navbar .autogo-logo {
+        font-size: 1.5em;
+    }
+    .navbar .contact-btn {
+        margin-left: auto;
+    }
+
+    .hero-content h1 {
+        font-size: 2em;
+    }
+
+    .accent-circle {
+        width: 300px;
+        height: 300px;
+        right: -50px;
+        top: 10%;
+        transform: translate(0%, -50%);
+    }
+
+    .brands-section {
+        justify-content: center;
+        gap: 15px;
+        font-size: 0.9em;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar {
+        padding: 15px 15px;
+    }
+    .hero-section {
+        padding: 20px 15px;
+    }
+    .hero-content h1 {
+        font-size: 1.8em;
+    }
+    .hero-content .subtitle {
+        font-size: 0.9em;
+    }
+    .search-form-container {
+        padding: 15px;
+    }
+    .input-group label {
+        font-size: 0.8em;
+    }
+    .input-group input {
+        font-size: 0.9em;
+        padding: 8px 12px;
+    }
+    .search-btn {
+        font-size: 1em;
+        padding: 10px 15px;
+    }
+    .accent-circle {
+        display: none;
+    }
+    .hero-car-image {
+        max-width: 90%;
+    }
+}
