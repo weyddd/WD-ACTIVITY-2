@@ -207,14 +207,13 @@ body {
 }
 
 .hero-car-image {
-    max-width: 200%;
-    height: 1000px;
-    height: auto;
+ 
+    max-width: 100%; 
+    height: auto;    
     display: block;
     position: relative;
     z-index: 2;
     filter: drop-shadow(5px 5px 15px var(--shadow-medium));
-    padding-left: 500px;
 }
 
 @media (max-width: 1200px) {
@@ -249,7 +248,7 @@ body {
     .hero-content {
         max-width: 100%;
         padding-right: 0;
-        padding-left: 100px;
+        
         margin-bottom: 40px;
     }
 
@@ -288,8 +287,8 @@ body {
         transform: translate(50%, -50%);
     }
     .hero-car-image {
-        max-width: 500%;
-        margin-left: 10000%;
+        
+        max-width: 80%; 
     }
 }
 
