@@ -1,0 +1,301 @@
+:root {
+    --mercedes-black: #000000;
+    --mercedes-grey-dark: #333333;
+    --mercedes-grey-light: #f0f0f0;
+    --mercedes-blue-accent: #007bff; 
+    --mercedes-white: #ffffff;
+    --mercedes-text-primary: var(--mercedes-black);
+    --mercedes-text-secondary: var(--mercedes-grey-dark);
+    --mercedes-font-family: 'Poppins', sans-serif;
+}
+
+body {
+    margin: 0;
+    font-family: var(--mercedes-font-family);
+    background-color: var(--mercedes-grey-light);
+    color: var(--mercedes-text-primary);
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 4%;
+    background-color: var(--mercedes-white);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 1.8em;
+    font-weight: 700;
+    color: var(--mercedes-black);
+}
+
+.main-nav {
+    display: flex;
+    gap: 30px;
+}
+
+.main-nav a {
+    color: var(--mercedes-text-secondary);
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.main-nav a:hover {
+    color: var(--mercedes-blue-accent);
+}
+
+.view-detail-btn {
+    background-color: var(--mercedes-black);
+    color: var(--mercedes-white);
+    padding: 12px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.view-detail-btn:hover {
+    background-color: var(--mercedes-blue-accent);
+}
+
+.view-detail-btn i {
+    margin-left: 8px;
+}
+
+.phantom-hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 4%;
+    max-width: 1400px;
+    margin: 20px auto;
+    background-color: var(--mercedes-white);
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
+
+.car-showcase {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+}
+
+.luxury-label {
+    font-size: 1.2em;
+    color: var(--mercedes-grey-dark);
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.car-model {
+    font-size: 3em;
+    font-weight: 700;
+    color: var(--mercedes-black);
+    margin-bottom: 20px;
+}
+
+.car-image-container {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.car-image {
+    width: 600px;
+    height: auto;
+    display: block;
+}
+
+.pagination {
+    margin-top: 20px;
+    color: var(--mercedes-text-secondary);
+    font-size: 0.9em;
+}
+
+.car-details {
+    flex: 1;
+    padding: 30px;
+}
+
+.functionality h2 {
+    font-size: 2em;
+    color: var(--mercedes-black);
+    margin-bottom: 15px;
+}
+
+.functionality p {
+    color: var(--mercedes-text-secondary);
+    margin-bottom: 20px;
+}
+
+.functionality ul {
+    list-style: none;
+    padding: 0;
+}
+
+.functionality ul li {
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 25px;
+}
+
+.functionality ul li::before {
+    content: '\f00c'; 
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900;
+    position: absolute;
+    left: 0;
+    top: 2px;
+    color: var(--mercedes-blue-accent);
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.stat-item {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid var(--mercedes-grey-light);
+    border-radius: 5px;
+}
+
+.stat-value {
+    font-size: 2em;
+    font-weight: 600;
+    color: var(--mercedes-black);
+    display: block;
+    margin-bottom: 5px;
+}
+
+.stat-label {
+    font-size: 0.9em;
+    color: var(--mercedes-text-secondary);
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.view-detail-mobile {
+    display: none;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.view-detail-mobile a {
+    background-color: var(--mercedes-black);
+    color: var(--mercedes-white);
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.view-detail-mobile a i {
+    margin-left: 8px;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    color: var(--mercedes-text-secondary);
+    font-size: 0.9em;
+    background-color: var(--mercedes-white);
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.05);
+}
+
+
+@media (max-width: 1024px) {
+    .phantom-hero-section {
+        flex-direction: column;
+    }
+
+    .car-showcase {
+        padding-bottom: 40px;
+    }
+
+    .car-details {
+        padding: 20px;
+    }
+
+    .stats-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        gap: 15px;
+        padding: 15px 4%;
+    }
+
+    .main-nav {
+        gap: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .car-model {
+        font-size: 2.5em;
+    }
+
+    .car-details {
+        padding: 15px;
+    }
+
+    .functionality h2 {
+        font-size: 1.8em;
+    }
+
+    .stats-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .view-detail-btn {
+        display: none;
+    }
+
+    .view-detail-mobile {
+        display: block;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo {
+        font-size: 1.5em;
+    }
+
+    .car-model {
+        font-size: 2em;
+    }
+
+    .stats-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .stat-item {
+        padding: 15px;
+    }
+
+    .stat-value {
+        font-size: 1.8em;
+    }
+}

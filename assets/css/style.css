@@ -109,6 +109,13 @@ body {
     background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6));
     color: var(--gt3rs-white);
     min-height: calc(100vh - 100px);
+     background:
+        linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
+        url('../img/bg.webp'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
 }
 
 .hero h1 {
