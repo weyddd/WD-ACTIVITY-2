@@ -144,14 +144,6 @@ WD-Seatwork-1
 
 ## Resources
 
-| Title | Purpose | Link |
-|-|-|-|
-| Nike Philippines Official Website | Used as inspiration and reference for the layout and content structure of Header and Footer 1. | https://www.nike.com/ph |
-| How to Create a Responsive Navigation Bar (for beginners) | Followed as a tutorial reference for building Header and Footer 4 with responsive behavior and sidebar navigation. | https://www.youtube.com/watch?v=U8smiWQ8Seg |
-| Font Awesome CDN (cdnjs) | Used to include Font Awesome icons quickly by linking to a hosted stylesheet, making it easy to add icons to navigation elements and buttons without downloading icon files locally. | https://cdnjs.com/libraries/font-awesome |
-
-## References
-
 | Hero Section | Reference Link |
 |--------------|---------------|
 | Hero 1 | [Car Hero Section Landing Page (Dribbble)](https://dribbble.com/shots/20854236-Car-Hero-Section-Landing-Page) |
