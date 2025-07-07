@@ -58,7 +58,7 @@ The goal of this seatwork is to practice implementing clean, reusable web compon
 Each design includes:
 - A header with branding, navigation, and sometimes interactive elements (like search bars or icons)
 - A footer containing links, contact details, social icons, or newsletter input fields
-
+r
 
 **Other features:**
 - Multiple header and footer designs
