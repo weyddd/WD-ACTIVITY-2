@@ -1,54 +1,44 @@
-<a name="readme-top">
-
-<br/>
+<a name="readme-top"></a>
 
 <br />
+
 <div align="center">
   <a href="https://github.com/zyx-0314/">
-  <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
+    <img src="/WD-ACTIVITY-2/assets/img/logo.png" alt="Waide Logo" width="130" height="100">
   </a>
-<!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Title</h3>
+  <h3 align="center">WD-Seatwork-2</h3>
 </div>
-<!-- TODO: Make a short description -->
+
 <div align="center">
-  Short Description. (Optional)
+  This project showcases my ability to create responsive and well-structured website headers and footers using HTML and CSS.
 </div>
 
 <br />
 
-<!-- TODO: Change the zyx-0314 into your github username  -->
-<!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Template-Project)
+![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Seatwork-1)
 
 [![wakatime](https://wakatime.com/badge/user/018dd99a-4985-4f98-8216-6ca6fe2ce0f8/project/63501637-9a31-42f0-960d-4d0ab47977f8.svg)](https://wakatime.com/badge/user/018dd99a-4985-4f98-8216-6ca6fe2ce0f8/project/63501637-9a31-42f0-960d-4d0ab47977f8)
 
 ---
 
-<br />
-<br />
-
-<!-- TODO: If you want to add more layers for your readme -->
 <details>
   <summary>Table of Contents</summary>
   <ol>
     <li>
       <a href="#overview">Overview</a>
       <ol>
-        <li>
-          <a href="#key-components">Key Components</a>
-        </li>
-        <li>
-          <a href="#technology">Technology</a>
-        </li>
+        <li><a href="#key-components">Key Components</a></li>
+        <li><a href="#technology">Technology</a></li>
       </ol>
     </li>
     <li>
-      <a href="#rule,-practices-and-principles">Rules, Practices and Principles</a>
+      <a href="#rules-practices-and-principles">Rules, Practices and Principles</a>
     </li>
     <li>
       <a href="#resources">Resources</a>
+    </li>
+    <li>
+      <a href="#references">References</a>
     </li>
   </ol>
 </details>
@@ -57,66 +47,115 @@
 
 ## Overview
 
-<!-- TODO: To be changed -->
-<!-- The following are just sample -->
-Description of the project in details.
+WD-Seatwork-1 is a web design project that showcases my ability to build various responsive and functional headers and footers using HTML and CSS. This project contains five unique hero layouts inspired by modern car rental and sales websites, demonstrating both visual design and layout versatility.
 
-Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+### Purpose
+
+The goal of this seatwork is to practice implementing clean, reusable web components, focusing on structure, responsiveness, and style. It helps reinforce essential frontend skills, particularly in semantic HTML and custom CSS.
 
 ### Key Components
-<!-- TODO: List of Key Components -->
-<!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+
+Each design includes:
+- A header with branding, navigation, and sometimes interactive elements (like search bars or icons)
+- A footer containing links, contact details, social icons, or newsletter input fields
+
+**Here are the layouts included:**
+- **Hero 1:** Car Hero Section Landing Page ([Dribbble](https://dribbble.com/shots/20854236-Car-Hero-Section-Landing-Page))
+- **Hero 2:** Advencar Minimalist Car Rental Website ([Envato Elements](https://elements.envato.com/advencar-minimalist-car-rental-website-hero-ui-Y45JF3F))
+- **Hero 3:** Car Rent Website ([Dribbble](https://dribbble.com/shots/26181404-Car-Rent-Website))
+- **Hero 4:** Driftt Sports Car Sales Website ([Dribbble](https://dribbble.com/shots/25827104-Driftt-A-sports-car-sales-website))
+- **Hero 5:** Toolset Hero Section ([Toolset](https://toolset.com/course-lesson/creating-a-hero-section/))
+
+**Other features:**
+- Multiple header and footer designs
+- Hover and animation effects
+- Responsive navigation menus
+- Logo and branding integration
+- Search bar and icon elements
+- Footer sections with links, contact info, or social media
+- Sidebar navigation with hover expansion
+- Mobile-friendly design with media queries
+- Integration of icons using Font Awesome
 
 ### Technology
-<!-- TODO: List of Technology Used -->
+
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
+
+- **HTML:** Structures all page elements including navigation menus, logos, and content sections.
+- **CSS:** Styles each layout, handles positioning, animations (like hover expansions), and responsiveness via media queries.
+
+These technologies are used without frameworks to strengthen my understanding of raw web development and layout behavior.
 
 ## Rules, Practices and Principles
+
 1. Always use `WD-` in the front of the Title of the Project for the Subject followed by your custom naming.
 2. Do not rename any .html files; always use `index.html` as the filename.
 3. Place Files in their respective folders.
 4. All file naming are in camel case.
-   - Camel case is naming format where there is no white space in separation of each words, the first word is in all lower case while the succeding words first letter are in upper followed by lower cased letters.
+   - Camel case is naming format where there is no white space in separation of each words, the first word is in all lower case while the succeeding words' first letter are in upper followed by lower cased letters.
    - ex.: buttonAnimatedStyle.css
-5. Use only `External CSS`.
+5. Use only **External CSS**.
 6. Renaming of Pages folder names are a must, and relates to what it is doing or data it holding.
 7. File Structure to follow below.
 
 ```
-WD-ProjectName
-└─ assets
-|   └─ css
-|   |   └─ style.css
-|   └─ img
-|   |   └─ fileWith.jpeg/.jpg/.webp/.png
-|   └─ js
-|       └─ script.js
-└─ pages
-|  └─ pageName
-|     └─ assets
-|     |  └─ css
-|     |  |  └─ style.css
-|     |  └─ img
-|     |  |  └─ fileWith.jpeg/.jpg/.webp/.png
-|     |  └─ js
-|     |     └─ script.js
-|     └─ index.html
-└─ index.html
+WD-Seatwork-1
+├─ assets
+│  ├─ css
+│  │  └─ style.css
+│  └─ img
+│     ├─ bg.webp
+│     └─ PORSCHE.png
+├─ pages
+│  ├─ page1
+│  │  ├─ assets
+│  │  │  └─ css
+│  │  │     └─ style.css
+│  │  └─ hero1.html
+│  ├─ page2
+│  │  ├─ assets
+│  │  │  └─ css
+│  │  │     └─ style.css
+│  │  └─ hero2.html
+│  ├─ page3
+│  │  ├─ assets
+│  │  │  └─ css
+│  │  │     └─ style.css
+│  │  └─ hero3.html
+│  ├─ page4
+│  │  ├─ assets
+│  │  │  ├─ css
+│  │  │  │  └─ style4.css
+│  │  │  └─ img
+│  │  │     └─ amg.png
+│  │  └─ hero4.html
+│  └─ page5
+│     ├─ assets
+│     │  ├─ css
+│     │  │  └─ style5.css
+│     │  └─ img
+│     │     ├─ mc.webp
+│     │     └─ mclaren_bg.webp
+│     └─ hero5.html
+├─ index.html
 └─ readme.md
 ```
 
 ## Resources
 
-<!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| Nike Philippines Official Website | Used as inspiration and reference for the layout and content structure of Header and Footer 1. | https://www.nike.com/ph |
+| How to Create a Responsive Navigation Bar (for beginners) | Followed as a tutorial reference for building Header and Footer 4 with responsive behavior and sidebar navigation. | https://www.youtube.com/watch?v=U8smiWQ8Seg |
+| Font Awesome CDN (cdnjs) | Used to include Font Awesome icons quickly by linking to a hosted stylesheet, making it easy to add icons to navigation elements and buttons without downloading icon files locally. | https://cdnjs.com/libraries/font-awesome |
+
+## References
+
+| Hero Section | Reference Link |
+|--------------|---------------|
+| Hero 1 | [Car Hero Section Landing Page (Dribbble)](https://dribbble.com/shots/20854236-Car-Hero-Section-Landing-Page) |
+| Hero 2 | [Advencar Minimalist Car Rental Website (Envato)](https://elements.envato.com/advencar-minimalist-car-rental-website-hero-ui-Y45JF3F) |
+| Hero 3 | [Car Rent Website (Dribbble)](https://dribbble.com/shots/26181404-Car-Rent-Website) |
+| Hero 4 | [Driftt Sports Car Sales Website (Dribbble)](https://dribbble.com/shots/25827104-Driftt-A-sports-car-sales-website) |
+| Hero 5 | [Toolset Hero Section](https://toolset.com/course-lesson/creating-a-hero-section/) |
