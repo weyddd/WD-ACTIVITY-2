@@ -47,7 +47,7 @@
 
 ## Overview
 
-WD-Seatwork-1 is a web design project that showcases my ability to build various responsive and functional headers and footers using HTML and CSS. This project contains five unique hero layouts inspired by modern car rental and sales websites, demonstrating both visual design and layout versatility.
+WD-Seatwork-2 is a web design project that showcases my ability to build various responsive and functional headers and footers using HTML and CSS. This project contains five unique hero layouts inspired by modern car rental and sales websites, demonstrating both visual design and layout versatility.
 
 ### Purpose
 
@@ -59,12 +59,6 @@ Each design includes:
 - A header with branding, navigation, and sometimes interactive elements (like search bars or icons)
 - A footer containing links, contact details, social icons, or newsletter input fields
 
-**Here are the layouts included:**
-- **Hero 1:** Car Hero Section Landing Page ([Dribbble](https://dribbble.com/shots/20854236-Car-Hero-Section-Landing-Page))
-- **Hero 2:** Advencar Minimalist Car Rental Website ([Envato Elements](https://elements.envato.com/advencar-minimalist-car-rental-website-hero-ui-Y45JF3F))
-- **Hero 3:** Car Rent Website ([Dribbble](https://dribbble.com/shots/26181404-Car-Rent-Website))
-- **Hero 4:** Driftt Sports Car Sales Website ([Dribbble](https://dribbble.com/shots/25827104-Driftt-A-sports-car-sales-website))
-- **Hero 5:** Toolset Hero Section ([Toolset](https://toolset.com/course-lesson/creating-a-hero-section/))
 
 **Other features:**
 - Multiple header and footer designs
