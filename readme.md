@@ -94,7 +94,7 @@ These technologies are used without frameworks to strengthen my understanding of
 7. File Structure to follow below.
 
 ```
-WD-Seatwork-1
+WD-Seatwork-2
 ├─ assets
 │  ├─ css
 │  │  └─ style.css
